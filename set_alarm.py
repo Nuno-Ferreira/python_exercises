@@ -6,5 +6,6 @@ import sched
 import winsound as ws
 
 def alarm(alarm_time, sound_file, message):
+    s = sched.scheduler(time.time, time.sleep)
     print('You set your alarm for', )
     s.run()
